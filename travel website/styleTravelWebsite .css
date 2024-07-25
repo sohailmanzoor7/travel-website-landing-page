@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* border: 1px solid red; */
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(massimo-virgilio-xi4H7Z9MDfA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.nav{
+    width: 85%;
+    height: 15%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+.nav .logo{
+    color: #fabd02;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+span{
+    color: white;
+}
+.btn{
+    position: absolute;
+    top: 35px;
+    right:10%;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #fabd02;
+    padding: 10px 32px;
+    font-size: 14px;
+    border-radius: 30px;
+}
+.main{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text h1{
+    color: #fabd02;
+    font-weight: 800;
+    font-size: 6vw;
+    letter-spacing: 2px;
+}
+.text p{
+    color:#000;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-bottom: 40px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.btnone{
+    margin: 0px 10px;
+    border: 2px solid #fabd02;
+    padding: 13px 35px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #000;
+    border-radius: 30px;
+    background-color: #fabd02;
+}
+.btnone:hover{
+    border: 2px solid #fabd02;
+    color: #fabd02;
+    background-color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btntwo{
+    margin: 0px 10px;
+    border: 2px solid #fabd02;
+    padding: 13px 35px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #fabd02;
+    border-radius: 30px;
+    background-color: white;
+}
+.btntwo:hover{
+    border: 2px solid #fabd02;
+    color: #000;
+    background-color: #fabd02;
+    transition: 0.5s;
+    cursor: pointer;
+}
